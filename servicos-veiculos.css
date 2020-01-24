@@ -1,0 +1,84 @@
+header{
+    position: fixed;
+    width: 100%;
+    padding: 40px 0px 40px 15px;
+    background-color: rgb(209, 7, 7);
+}
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+#headerlinksbox{
+    padding-left: 63%;
+}
+.headerlinks{
+    margin-left: 25px;
+}
+#headerlogo{
+    float: left;
+    border: solid rgb(206, 3, 3) 1px;
+    height: 40px;
+}
+
+main{
+    background-color:red;
+}
+section{
+max-width:100vw;
+max-height:300vh;
+padding-top: 120px;
+display: grid;
+justify-content: center;
+grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 2 ;
+grid-row-end: 4 ;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr ;
+font-size: 30px;
+color: white;
+}
+.contato{
+    padding-top: 120px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+a:link{
+color: black;
+font-size: 30px;
+}
+a:visited{
+    color: black;
+    font-size: 30px;
+}
+#ferrari{
+display: grid;
+grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 2 ;
+grid-row-end: 4 ;
+}
+#drone{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1 ;
+    grid-row-end: 4 ;
+}
+#aviao{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2 ;
+    grid-row-end: 4 ;
+}
+#submarino{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3 ;
+    grid-row-end: 4 ;
+}
