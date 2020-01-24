@@ -1,3 +1,33 @@
-#logopage{
-    padding-right: 75%;
+body{
+    background-color: white;
+    margin: 0;
+}
+
+header{
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#headerlinksbox{
+    padding-left: 63%;
+}
+
+.headerlinks{
+    margin-left: 25px;
+}
+
+
+#headerlogo{
+    float: left;
+    border: solid rgb(206, 3, 3) 1px;
+    height: 40px;
+}
+
+#primeiraimagem{
+    width: 100%;
+}
+
+#primeiraimagem img{
+    width: 100%;
 }
