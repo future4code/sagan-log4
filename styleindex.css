@@ -1,0 +1,261 @@
+* {
+    font-family: Arial;
+   }
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+a:link:active, a:visited:active {
+    color: white;
+      text-decoration: none;
+  }
+
+header{
+    position: fixed;
+    width: 100%;
+    padding: 40px 0px 40px 15px;
+    background-color: rgb(209, 7, 7);
+}
+
+#headerlinksbox{
+    padding-left: 62%;
+}
+
+.headerlinks{
+    margin-left: 25px;
+}
+
+
+#headerlogo{
+    float: left;
+    border: solid rgb(206, 3, 3) 1px;
+    height: 40px;
+}
+
+#primeiraimagem{
+    padding-top: 100px;
+}
+
+#primeiraimagem img{
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    width: 50%;
+}
+
+.redbox{
+    padding: 30px 10px 240px 10px;
+    background-color: rgb(209, 7, 7);
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.whitebox{
+    padding: 30px 10px 240px 10px;
+    background-color: white;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.gridoffers{
+    display: grid;
+    grid-template-columns: 1f 1f 1f 1f;
+    grid-template-rows: 1f 1f;
+    justify-content: center;
+    column-gap: 64px;
+    padding-top: 20px;
+}
+
+.elementfusion1{
+    display: grid;
+    grid-template-columns: 1f 1f;
+    grid-template-rows: 1f 1f;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    justify-content: flex-start;
+}
+
+.elementfusion2{
+    display: grid;
+    grid-template-columns: 1f 1f;
+    grid-template-rows: 1f 1f;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    justify-content: flex-start;
+}
+
+.elementfusion3{
+    display: grid;
+    grid-template-columns: 1f 1f;
+    grid-template-rows: 1f 1f;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    justify-content: flex-start;
+}
+
+.elementfusion4{
+    display: grid;
+    grid-template-columns: 1f 1f;
+    grid-template-rows: 1f 1f;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    justify-content: flex-start;
+}
+
+#elemento1{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border-top: solid white 1px;
+    border-left: solid white 1px;
+    height: 150px;
+    width: 130px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#elemento2{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border-top: solid  transparent 1px;
+    border-right: solid transparent 1px;
+    height: 150px;
+    width: 130px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#elemento3{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border-right: solid transparent 1px;
+    border-bottom: solid transparent 1px;
+    height: 150px;
+    width: 130px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#elemento4{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border-right: solid white 1px;
+    border-bottom: solid white 1px;
+    height: 150px;
+    width: 130px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer{
+    background-color: rgb(209, 7, 7);
+    padding: 50px;
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+#footerlogo{
+    border: solid rgb(206, 3, 3) 1px;
+}
+
+#footername{
+    display:inline;
+    font-size: 40px;
+}
+
+.footersociallinks{
+    display: inline;
+    padding-left: 20px;
+}
+
+#firstwhitebox{
+
+}
+
+#tituloimagemprincipal{
+    display: inline;
+    padding-top: 140px;
+    padding-left: 60px;
+    margin-right: 0px;
+    float: left;
+    font-size: 40px;
+    color: black;
+}
+
+#textoimagemprincipal{
+    position: absolute;
+    padding-top: 240px;
+    padding-left: 80px;
+    margin-right: 0px;
+    float: left;
+    font-size: 20px;
+    color: black;
+}
+
+#textoimagemprincipal2{
+    position: absolute;
+    padding-top: 260px;
+    padding-left: 70px;
+    margin-right: 0px;
+    float: left;
+    font-size: 20px;
+    color: black;
+}
+
+#textoimagemprincipal3{
+    position: absolute;
+    padding-top: 280px;
+    padding-left: 80px;
+    margin-right: 0px;
+    float: left;
+    font-size: 20px;
+    color: black;
+}
+
+#botaovagas{
+    position: absolute;
+    padding-top: 420px;
+    padding-left: 170px;
+    margin-right: 0px;
+
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+#vagaslink{
+    color: rgb(209, 7, 7);
+}
+
+#indextable{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    color: black;
+}
+
+#reviewid{
+    color: black;
+}
